@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Vashu Deshwal game developer profile header</title>
+  <desc id="desc">A neon cyber arcade HUD displaying Vashu Deshwal, game developer and interactive systems builder.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="48%" stop-color="#171044"/>
+      <stop offset="100%" stop-color="#071A35"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-70%" width="160%" height="240%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#7C3AED" stroke-opacity=".17" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="270" rx="16" fill="url(#background)"/>
+  <rect width="1200" height="270" rx="16" fill="#7C3AED" opacity="0">
+    <animate attributeName="opacity" values="0;0.08;0" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="270" rx="16" fill="url(#grid)"/>
+  <path d="M0 38 H168 L191 16 H555" fill="none" stroke="#22D3EE" stroke-width="3" filter="url(#glow)" stroke-dasharray="12 8">
+    <animate attributeName="stroke-dashoffset" values="0;-80" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M1200 232 H1025 L1001 254 H690" fill="none" stroke="#F472B6" stroke-width="3" filter="url(#glow)" stroke-dasharray="12 8">
+    <animate attributeName="stroke-dashoffset" values="0;80" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <rect x="30" y="55" width="1140" height="160" rx="10" fill="#070B1C" fill-opacity=".67" stroke="url(#neon)" stroke-width="2"/>
+  <path d="M30 92 H1170 M30 178 H1170" stroke="#A855F7" stroke-opacity=".4"/>
+  <rect x="55" y="72" width="178" height="23" rx="3" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0.45;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="144" y="89" text-anchor="middle" font-family="monospace" font-size="12" font-weight="700" fill="#06101B">PLAYER_01 // ONLINE</text>
+  <text x="55" y="140" font-family="monospace" font-size="42" font-weight="800" letter-spacing="3" fill="#F8FAFC">VASHU DESHWAL</text>
+  <text x="58" y="166" font-family="monospace" font-size="16" font-weight="700" letter-spacing="2" fill="#67E8F9">GAME DEVELOPER  //  INTERACTIVE SYSTEMS BUILDER</text>
+  <g font-family="monospace" font-size="12" font-weight="700">
+    <rect x="815" y="111" width="150" height="28" rx="3" fill="#1E1B4B" stroke="#A855F7"/>
+    <text x="890" y="130" text-anchor="middle" fill="#DDD6FE">PRESS START</text>
+    <rect x="980" y="111" width="155" height="28" rx="3" fill="#083344" stroke="#22D3EE"/>
+    <text x="1057" y="130" text-anchor="middle" fill="#A5F3FC">GAME ON</text>
+    <text x="815" y="163" fill="#F9A8D4">[ READY FOR NEXT QUEST ]</text>
+  </g>
+  <circle cx="1138" cy="74" r="5" fill="#22C55E" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.15;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M55 203 H410" stroke="url(#neon)" stroke-width="4" filter="url(#glow)"/>
+</svg>
